@@ -1,0 +1,22 @@
+.brand-wrapper {
+  .z-index-step1 {
+    position: relative;
+    z-index: 4 !important;
+  }
+}
+.brand-layout2 {
+  &::before {
+    background-image: -webkit-linear-gradient(
+      top,
+      rgba(249, 163, 146, 0.15) 0%,
+      #fff 30%,
+      rgba(249, 163, 146, 0.15) 120%
+    );
+    background-image: linear-gradient(
+      to bottom,
+      rgba(249, 163, 146, 0.15) 0%,
+      #fff 30%,
+      rgba(249, 163, 146, 0.15) 120%
+    );
+  }
+}

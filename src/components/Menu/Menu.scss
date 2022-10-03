@@ -1,0 +1,10 @@
+.menu-wrapper {
+  .navbar {
+    a {
+      margin: 0 17px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

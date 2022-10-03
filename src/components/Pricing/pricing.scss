@@ -1,0 +1,26 @@
+.pricingWrapper {
+  .nav-tabs {
+    .nav-link {
+      border: none;
+      margin: 0;
+      border-radius: 0;
+      padding: 17px 33px;
+      color: var(--black-color);
+      font-weight: 700;
+      background-color: rgba(249, 163, 146, 0.17);
+      position: relative;
+      display: inline-block;
+      &.active {
+        color: var(--white-color);
+        background-color: var(--theme-color);
+      }
+      a {
+        background-color: rgba(249, 163, 146, 0.17);
+      }
+    }
+  }
+  .sec-title {
+    position: relative;
+    margin-bottom: 75px;
+  }
+}

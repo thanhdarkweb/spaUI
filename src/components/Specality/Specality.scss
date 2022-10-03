@@ -1,0 +1,36 @@
+.vs-features-layout1 {
+  .inner-wrapper {
+    position: relative;
+    z-index: 5;
+  }
+
+  .shape3 {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    z-index: 2;
+  }
+  .vs-features-layout1 .shape5 {
+    -webkit-transform: scale(0.96);
+    -ms-transform: scale(0.96);
+    transform: scale(0.96);
+    background-color: transparent;
+    border: 34px solid var(--theme-color);
+    opacity: 0.5;
+  }
+}
+.vs-features-layout1 .shape5,
+.vs-features-layout1 .shape4 {
+  width: 920px;
+  height: 920px;
+  margin-left: -460px;
+  margin-top: -440px;
+  display: inline-block;
+  left: 50%;
+  top: 0;
+  border-radius: 50%;
+  background: var(--white-color);
+  z-index: 1;
+}

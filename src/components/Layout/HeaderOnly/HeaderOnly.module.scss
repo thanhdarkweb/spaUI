@@ -1,0 +1,30 @@
+.header-wrapper {
+  position: relative;
+  z-index: 9;
+  .menu-button--left {
+    .btn-header {
+      &:hover {
+        background-color: var(--white-color) !important;
+        color: var(--theme-color) !important;
+        border-color: var(--theme-color);
+      }
+    }
+  }
+  a {
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+    &:hover {
+      background-color: var(--white-color) !important;
+      color: var(--theme-color) !important;
+      border-color: var(--theme-color);
+    }
+  }
+}
+@media (max-width: 1500px) {
+  .header-wrapper {
+    a {
+      margin: 0 10px;
+    }
+  }
+}

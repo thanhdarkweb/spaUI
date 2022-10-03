@@ -1,0 +1,42 @@
+.footer-widget {
+  background-color: var(--bg-body-color);
+  --icon-font: "Font Awesome 5 Free";
+
+  .recent-post {
+    padding-bottom: 20px;
+  }
+  .has-light-border-white .recent-post:nth-child(1) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .recent-post:nth-child(2) {
+    padding-top: 20px;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 !important;
+
+    a {
+      background-color: transparent;
+      padding: 0;
+      position: relative;
+      margin-bottom: 3px;
+      display: inline-block;
+      font-weight: 500;
+      &:before {
+        content: "\f101";
+        font-family: var(--icon-font);
+        margin-right: 10px;
+      }
+    }
+  }
+  a {
+    color: var(--white) !important;
+  }
+}
+.gutters-40 {
+  margin: 0 -20px;
+}
+.widget_title {
+  margin-bottom: 30px;
+}

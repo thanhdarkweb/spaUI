@@ -1,0 +1,122 @@
+.primary {
+  position: relative;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  text-transform: capitalize;
+  display: inline-block;
+  background-color: var(--white-color);
+  color: var(--bg-body-color);
+  vertical-align: middle;
+  z-index: 2;
+
+  &:hover {
+    color: var(--white-color);
+    --n: 2;
+  }
+  &:hover .icon {
+    background-color: var(--white-color);
+    color: var(--theme-color);
+  }
+  &:hover .vs-btn-shape {
+    -webkit-transform: translateY(0) scale(2);
+    -ms-transform: translateY(0) scale(2);
+    transform: translateY(0) scale(2);
+  }
+  .vs-btn-shape:nth-child(1) {
+    --n: 1;
+  }
+  .vs-btn-shape:nth-child(2) {
+    --n: 2;
+  }
+  .vs-btn-shape:nth-child(3) {
+    --n: 3;
+  }
+  .vs-btn-shape:nth-child(4) {
+    --n: 4;
+  }
+  .vs-btn-shape {
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--theme-color);
+    -webkit-transform: translateY(150%);
+    -ms-transform: translateY(150%);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transition-delay: calc((var(--n) - 1) * 0.1s);
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: 1;
+  }
+  &[class*="btncontact"] {
+    padding: 16.5px 34px;
+    background-color: var(--theme-color);
+    color: var(--white-color);
+    font-weight: 500;
+    border: 1px solid transparent;
+    --n: 1;
+  }
+  &[class*="outline"] {
+    background-color: transparent;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 45px;
+    border: 2px solid #e4e4e4;
+    color: var(--body-color);
+    --n: 1;
+    &:hover {
+      color: var(--white-color);
+    }
+  }
+  .icon,
+  .title {
+    z-index: 3;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .icon {
+    -webkit-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+    -webkit-transition-delay: calc((var(--n) - 1) * 0.1s);
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+  }
+}
+.shadow {
+  box-shadow: 0px 6px 20px 0px rgba(249, 163, 146, 0.3) !important;
+  &[class*="shadow"] {
+    padding: 7px;
+    padding-left: 40px;
+  }
+  .icon {
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: var(--theme-color);
+    color: var(--white-color);
+    margin-left: 27px;
+    font-size: 16px;
+    --n: 5;
+  }
+}
+.btncontact {
+  &:hover {
+    border-color: var(--theme-color);
+    color: var(--bg-body-color);
+  }
+  &.vs-btn-shape {
+    background-color: var(--white-color);
+  }
+}
+.icon-btn {
+  border-right: 1px solid var(--border-color);
+  border-radius: 0;
+  font-size: 22px;
+  height: 57px;
+}
