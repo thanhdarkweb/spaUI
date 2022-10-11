@@ -7,7 +7,6 @@ function Specality() {
       className="vs-features-wrapper vs-features-layout1 overflow-hidden background-image position-relative space"
       data-vs-img="assets/img/feature/feature-bg-img-3-1.jpg"
       id="feature"
-      //   style='background-image: url("assets/img/feature/feature-bg-img-3-1.jpg");'
     >
       <div className="shape3 position-absolute d-none d-lg-block">
         <img
@@ -35,7 +34,6 @@ function Specality() {
               <div
                 className="vs-feature media wow fadeInUp animated"
                 data-wow-delay="0.3s"
-                // style="visibility: visible; animation-delay: 0.3s; animation-name: c;"
               >
                 <div className="media-icon">
                   <span className="icon-btn has-border text-theme bg-white">
@@ -52,7 +50,6 @@ function Specality() {
               <div
                 className="vs-feature media wow fadeInUp animated"
                 data-wow-delay="0.4s"
-                // style="visibility: visible; animation-delay: 0.4s; animation-name: c;"
               >
                 <div className="media-icon">
                   <span className="icon-btn has-border text-theme bg-white">
@@ -69,7 +66,6 @@ function Specality() {
               <div
                 className="vs-feature media wow fadeInUp animated"
                 data-wow-delay="0.5s"
-                // style="visibility: visible; animation-delay: 0.5s; animation-name: c;"
               >
                 <div className="media-icon">
                   <span className="icon-btn has-border text-theme bg-white">
@@ -88,7 +84,6 @@ function Specality() {
               <div
                 className="vs-feature media wow fadeInUp animated"
                 data-wow-delay="0.3s"
-                // style="visibility: visible; animation-delay: 0.3s; animation-name: c;"
               >
                 <div className="media-icon">
                   <span className="icon-btn has-border text-theme bg-white">
@@ -105,7 +100,6 @@ function Specality() {
               <div
                 className="vs-feature media wow fadeInUp animated"
                 data-wow-delay="0.4s"
-                // style="visibility: visible; animation-delay: 0.4s; animation-name: c;"
               >
                 <div className="media-icon">
                   <span className="icon-btn has-border text-theme bg-white">
@@ -122,7 +116,6 @@ function Specality() {
               <div
                 className="vs-feature media wow fadeInUp animated"
                 data-wow-delay="0.5s"
-                // style="visibility: visible; animation-delay: 0.5s; animation-name: c;"
               >
                 <div className="media-icon">
                   <span className="icon-btn has-border text-theme bg-white">
